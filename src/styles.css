@@ -336,6 +336,13 @@ body{
     margin: 1rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     background: var(--clr-grey-10);
+    transition: transform 250ms;
+}
+
+.tour-card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+
 }
 
 .top{
@@ -430,6 +437,10 @@ body{
     font-size: 2rem;
     margin: 0rem 0.5rem;
     color: var(--clr-white);
+}
+
+.footer i:hover{
+    color: var(--clr-primary-5);
 }
 
 .footer .copyright{
